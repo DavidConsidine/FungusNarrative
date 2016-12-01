@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ReplayScript : MonoBehaviour {
+public class CloseGameScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -10,10 +10,6 @@ public class ReplayScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown ("space")){
-			Application.LoadLevel ("FungusNarr");
-		}
-
 		if (Input.GetKeyDown (KeyCode.Q)){
 			Application.Quit ();
 		}
